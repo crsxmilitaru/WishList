@@ -318,7 +318,7 @@ export class AppComponent implements OnInit {
 
   async getAiMessage(item: any) {
     const response = await this.ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-flash-lite-latest",
       contents: `Găsește informații relevante despre: ${item.name}. Dacă este posibil, oferă o estimare de preț în lei și alternative similare sau recomandări. Nu repeta numele cadoului dacă nu este necesar.
       Dacă nu găsești nimic, răspunde cu: "Nu prea s-au găsit informații despre ${item.name}." Fără formatare cu bold și fără întrebări. Fără adresare personală. Maximum 35 de cuvinte.`
     });

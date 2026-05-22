@@ -4,7 +4,7 @@
   "scripts": {
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "ng build && firebase deploy",
+    "deploy": "ng build && npx firebase deploy",
     "reset": "rmdir /s /q node_modules 2>nul & del package-lock.json 2>nul & npm install"
   },
   "private": true,

@@ -5,6 +5,7 @@
 /out-tsc/
 /.angular/
 /.angular/cache/
+/public/
 
 ### Node ###
 /node_modules/
